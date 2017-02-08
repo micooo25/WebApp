@@ -3,7 +3,7 @@
   $title= htmlentities($title);
   echo <<< END
   
-  <!DOCTYPE HTML PUBLIC "-//W3C//DTD
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD
     HTML 4.01//EN"
     "http://www.w3.org/TR/html4/strict.dtd">
   
@@ -16,7 +16,7 @@
   </head>
   <body>
   <h1>$title</h1>
-  END;
+END;
   }
   
   function ui_printer_footer($date){
@@ -26,7 +26,7 @@
     <div class = "date">$date</div>
     <div class = "company"> Any Co. </div>
     </div>
-    END;
+END;
   }
 
 ?>
