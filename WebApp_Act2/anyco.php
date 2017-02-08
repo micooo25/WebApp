@@ -14,7 +14,7 @@
 	print '<table border="1">';
 		while($row=oci_fetch_array($stid, OCI_RETURN_NULLS)){
 			print '<tr>';
-			foreach($row a $item){
+			foreach($row as $item){
 				print '<td>'.
 				($item ? htmlentities($item): '&nbsp,'). '</td>';
 			}
